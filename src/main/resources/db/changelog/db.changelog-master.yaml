@@ -1,2 +1,11 @@
 databaseChangeLog:
-  - 
+  - include:
+      file: db/changelog/0.0.1/customers-1.sql
+  - include:
+      file: db/changelog/0.0.2/customers-2.sql
+  - include:
+      file: db/changelog/0.0.3/orders-1.sql
+  - include:
+      file: db/changelog/0.0.4/orders-2.sql
+  - include:
+      file: db/changelog/0.0.5/orders-3.sql

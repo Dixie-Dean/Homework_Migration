@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @Repository
 public class MyRepository {
-    private final String script = read("myScript.sql");
+    private final String script = read("script.sql");
 
     private final NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
